@@ -28,6 +28,39 @@ jobs:
             assets/github-snake.svg
             assets/github-snake-dark.svg?palette=github-dark
 
+      - name: Animated avatar
+        run: |
+          mkdir -p assets
+          curl -sL "https://github.com/${{ github.repository_owner }}.png?size=300" -o avatar.png
+          python3 - <<'EOF'
+          import base64
+          b = base64.b64encode(open("avatar.png","rb").read()).decode()
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+          <defs>
+          <clipPath id="c"><circle cx="200" cy="200" r="110"/></clipPath>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f5a0"/><stop offset=".5" stop-color="#00d9f5"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <circle cx="200" cy="200" r="150" fill="none" stroke="#00d9f5" stroke-opacity=".25" stroke-width="1" stroke-dasharray="4 8">
+          <animateTransform attributeName="transform" type="rotate" from="360 200 200" to="0 200 200" dur="30s" repeatCount="indefinite"/></circle>
+          <circle cx="200" cy="200" r="128" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round" stroke-dasharray="140 90" filter="url(#glow)">
+          <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="4s" repeatCount="indefinite"/></circle>
+          <circle cx="200" cy="200" r="118" fill="none" stroke="#a855f7" stroke-width="3" stroke-linecap="round" stroke-dasharray="60 200" filter="url(#glow)">
+          <animateTransform attributeName="transform" type="rotate" from="360 200 200" to="0 200 200" dur="6s" repeatCount="indefinite"/></circle>
+          <circle cx="200" cy="200" r="112" fill="none" stroke="#00f5a0" stroke-width="2">
+          <animate attributeName="stroke-opacity" values="1;.2;1" dur="2.5s" repeatCount="indefinite"/>
+          <animate attributeName="r" values="112;116;112" dur="2.5s" repeatCount="indefinite"/></circle>
+          <image href="data:image/png;base64,{b}" x="90" y="90" width="220" height="220" clip-path="url(#c)" preserveAspectRatio="xMidYMid slice"/>
+          <g filter="url(#glow)">
+          <circle r="5" fill="#00f5a0"><animateMotion dur="5s" repeatCount="indefinite" path="M200,40 a160,160 0 1,1 -0.1,0"/></circle>
+          <circle r="4" fill="#a855f7"><animateMotion dur="7s" repeatCount="indefinite" path="M200,360 a160,160 0 1,0 0.1,0"/></circle>
+          <circle r="3" fill="#00d9f5"><animateMotion dur="3.5s" repeatCount="indefinite" path="M200,60 a140,140 0 1,0 -0.1,0"/></circle>
+          </g>
+          </svg>'''
+          open("assets/avatar-animated.svg","w").write(svg)
+          EOF
+          rm avatar.png
+
       - name: Commit files
         run: |
           git config user.name "github-actions"
