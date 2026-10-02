@@ -17,7 +17,7 @@
 
 ---
 
-### 👨‍💻 Who I Am
+<h2 align="center"><code>~/</code> who I am</h2>
 
 ```js
 const vaibhavTevatia = {
@@ -34,27 +34,29 @@ const vaibhavTevatia = {
 
 ---
 
-### 🛠️ Tech Stack
+<h2 align="center"><code>~/</code> toolbox</h2>
 
-<p align="left">
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=cpp,c,go,js,html,css,git,github,vscode&perline=9" alt="Toolbox" />
 </p>
 
 ---
 
-### 📌 Featured Project
+<h2 align="center"><code>~/</code> skill radar</h2>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/skill-radar.svg" width="70%" alt="Skill radar" />
+</p>
+
+---
+
+<h2 align="center"><code>~/</code> featured project</h2>
 
 **[PROJECT NAME](https://github.com/vaibhavtevatia7946/YOUR-REPO)** – one-line description of what it does.
 
 ---
 
-### 📊 GitHub Stats
+<h2 align="center"><code>~/</code> github stats</h2>
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=vaibhavtevatia7946&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub stats" />
@@ -67,7 +69,7 @@ const vaibhavTevatia = {
 
 ---
 
-### 🗓️ Contribution Calendar
+<h2 align="center"><code>~/</code> contribution calendar</h2>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar" />
@@ -79,7 +81,7 @@ const vaibhavTevatia = {
 
 ---
 
-### 🌐 Connect with Me
+<h2 align="center"><code>~/</code> connect with me</h2>
 
 <p align="center">
 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" /></a>
