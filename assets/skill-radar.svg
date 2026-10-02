@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="700" height="460" font-family="Menlo,Consolas,monospace">
+<rect x="1" y="1" width="698" height="458" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<text x="30" y="40" font-size="15" font-weight="700" fill="#1a1a1a" letter-spacing="2">SKILL RADAR</text>
+<polygon points="350.0,203.8 377.1,219.4 377.1,250.6 350.0,266.2 322.9,250.6 322.9,219.4" fill="none" stroke="#d0d7de"/>
+<polygon points="350.0,172.5 404.1,203.8 404.1,266.2 350.0,297.5 295.9,266.2 295.9,203.8" fill="none" stroke="#d0d7de"/>
+<polygon points="350.0,141.2 431.2,188.1 431.2,281.9 350.0,328.8 268.8,281.9 268.8,188.1" fill="none" stroke="#d0d7de"/>
+<polygon points="350.0,110.0 458.3,172.5 458.3,297.5 350.0,360.0 241.7,297.5 241.7,172.5" fill="none" stroke="#d0d7de"/>
+<line x1="350" y1="235" x2="350.0" y2="110.0" stroke="#d0d7de"/>
+<line x1="350" y1="235" x2="458.3" y2="172.5" stroke="#d0d7de"/>
+<line x1="350" y1="235" x2="458.3" y2="297.5" stroke="#d0d7de"/>
+<line x1="350" y1="235" x2="350.0" y2="360.0" stroke="#d0d7de"/>
+<line x1="350" y1="235" x2="241.7" y2="297.5" stroke="#d0d7de"/>
+<line x1="350" y1="235" x2="241.7" y2="172.5" stroke="#d0d7de"/>
+<polygon points="350.0,128.8 436.6,185.0 436.6,285.0 350.0,322.5 290.5,269.4 268.8,188.1" fill="#2e7d32" fill-opacity="0.22" stroke="#2e7d32" stroke-width="2.5"/>
+<circle cx="350.0" cy="128.8" r="4" fill="#2e7d32"/>
+<text x="350.0" y="84.0" font-size="12" font-weight="700" fill="#57606a" text-anchor="middle" letter-spacing="1">C++</text>
+<circle cx="436.6" cy="185.0" r="4" fill="#2e7d32"/>
+<text x="484.2" y="161.5" font-size="12" font-weight="700" fill="#57606a" text-anchor="start" letter-spacing="1">DSA</text>
+<circle cx="436.6" cy="285.0" r="4" fill="#2e7d32"/>
+<text x="484.2" y="316.5" font-size="12" font-weight="700" fill="#57606a" text-anchor="start" letter-spacing="1">PROBLEM SOLVING</text>
+<circle cx="350.0" cy="322.5" r="4" fill="#2e7d32"/>
+<text x="350.0" y="394.0" font-size="12" font-weight="700" fill="#57606a" text-anchor="middle" letter-spacing="1">JAVASCRIPT</text>
+<circle cx="290.5" cy="269.4" r="4" fill="#2e7d32"/>
+<text x="215.8" y="316.5" font-size="12" font-weight="700" fill="#57606a" text-anchor="end" letter-spacing="1">GO</text>
+<circle cx="268.8" cy="188.1" r="4" fill="#2e7d32"/>
+<text x="215.8" y="161.5" font-size="12" font-weight="700" fill="#57606a" text-anchor="end" letter-spacing="1">HTML/CSS</text>
+<text x="30" y="440" font-size="10" fill="#57606a" letter-spacing="1">RELATIVE WORKING RANGE · NOT PROFICIENCY %</text></svg>
