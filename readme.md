@@ -53,7 +53,7 @@ const vaibhavTevatia = {
 
 <h2 align="center"><code>~/</code> featured project</h2>
 
-**[PROJECT NAME](https://github.com/vaibhavtevatia7946/YOUR-REPO)** – one-line description of what it does.
+**[TripNest](https://github.com/vaibhavtevatia7946/tripnest)** – a responsive travel booking demo for exploring destinations and previewing sample flight, train, and bus routes.
 
 ---
 
