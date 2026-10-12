@@ -46,7 +46,7 @@ const vaibhavTevatia = {
 <h2 align="center"><code>~/</code> skill radar</h2>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/skill-radar.svg" width="70%" alt="Skill radar" />
+<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/skill-radar.svg" width="100%" alt="Skill radar" />
 </p>
 
 ---
