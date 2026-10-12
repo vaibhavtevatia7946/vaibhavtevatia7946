@@ -53,7 +53,7 @@ const vaibhavTevatia = {
 
 <h2 align="center"><code>~/</code> featured project</h2>
 
-**[TripNest](https://github.com/vaibhavtevatia7946/tripnest)** – a responsive travel booking demo for exploring destinations and previewing sample flight, train, and bus routes.
+**[TripNest](https://github.com/vaibhavtevatia7946/tripnest)** – a responsive travel booking demo for exploring destinations and previewing sample flight, train, and bus routes.  [![TripNest website snapshot](https://image.thum.io/get/width/1200/crop/850/noanimate/https://vaibhavtevatia7946.github.io/tripnest/)](https://vaibhavtevatia7946.github.io/tripnest/)
 
 ---
 
