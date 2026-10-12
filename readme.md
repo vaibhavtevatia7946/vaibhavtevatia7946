@@ -85,7 +85,7 @@ const vaibhavTevatia = {
 <h2 align="center"><code>~/</code> activity trail</h2>
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavtevatia7946&bg_color=ffffff00&color=57606a&line=2da44e&point=2da44e&area=true&hide_border=true&custom_title=ACTIVITY%20TRAIL" width="100%" alt="GitHub contribution activity trail" />
+<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/activity-trail.svg" width="100%" alt="GitHub contribution activity trail" />
 </p>
 
 ---
