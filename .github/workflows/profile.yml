@@ -61,6 +61,11 @@ jobs:
           EOF
           rm avatar.png
 
+      - name: Generate profile summary and language cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_profile_metrics.py
+
       - name: Commit files
         run: |
           git config user.name "github-actions"
