@@ -6,10 +6,10 @@
 </p>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:your-email@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-<a href="https://leetcode.com/YOUR-LEETCODE"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat&logo=leetcode&logoColor=white" /></a>
-<a href="https://YOUR-PORTFOLIO-LINK.com"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=googlechrome&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/vaibhav-tevatia-a1788842a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:vaibhavtevatia7946@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+<a href="https://leetcode.com/u/00JxtSQG7B/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=flat&logo=leetcode&logoColor=white" /></a>
+<a href="https://vaibhav-portfolio-rho.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=googlechrome&logoColor=white" /></a>
 </p>
 
 <p align="center">
@@ -93,8 +93,8 @@ const vaibhavTevatia = {
 <h2 align="center"><code>~/</code> connect with me</h2>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:your-email@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/vaibhav-tevatia-a1788842a/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:vaibhavtevatia7946@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
 
 <p align="center"><i>Thanks for visiting — always open to collaborating on interesting projects! 🚀</i></p>
