@@ -1,9 +1,5 @@
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/avatar-animated.svg" width="260" alt="Vaibhav Tevatia profile portrait" />
-<br />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=1200&color=2ECC40&center=true&vCenter=true&width=600&height=45&lines=Vaibhav+Tevatia" alt="Vaibhav Tevatia" />
-</p>
+<h1 align="center">Hi, I'm Vaibhav Tevatia 👋</h1>
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1200&color=1E90FF&center=true&vCenter=true&width=600&height=45&lines=CSE+Student+%7C+Learning+DSA;%E2%80%A2+Building+Projects+%E2%80%A2;%E2%80%A2+Exploring+Tech+%E2%80%A2" alt="Typing SVG" />
