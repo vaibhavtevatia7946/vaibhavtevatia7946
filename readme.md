@@ -57,18 +57,15 @@ const vaibhavTevatia = {
 
 ---
 
-<h2 align="center"><code>~/</code> the numbers</h2>
+<h2 align="center"><code>~/</code> github stats</h2>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vaibhavtevatia7946&show_icons=true&theme=default&hide_border=true&include_all_commits=true" width="480" alt="GitHub statistics" />
+<img src="https://github-readme-stats.vercel.app/api?username=vaibhavtevatia7946&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavtevatia7946&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Top languages" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavtevatia7946&layout=compact&theme=default&hide_border=true" height="165" alt="Most used languages" />
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com/?user=vaibhavtevatia7946&theme=default&hide_border=true" alt="Contribution streak" />
+<img src="https://streak-stats.demolab.com/?user=vaibhavtevatia7946&theme=tokyonight&hide_border=true" alt="Streak stats" />
 </p>
 
 ---
