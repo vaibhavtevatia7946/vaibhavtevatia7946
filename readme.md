@@ -53,7 +53,25 @@ const vaibhavTevatia = {
 
 <h2 align="center"><code>~/</code> featured project</h2>
 
-**[TripNest](https://github.com/vaibhavtevatia7946/tripnest)** – a responsive travel booking demo for exploring destinations and previewing sample flight, train, and bus routes. **[Live demo](https://tripnest-redesign.vercel.app/)** · [![TripNest website snapshot](https://image.thum.io/get/width/1200/crop/850/noanimate/https://tripnest-redesign.vercel.app/)](https://tripnest-redesign.vercel.app/)
+<table>
+  <tr>
+    <td width="52%" valign="middle">
+      <a href="https://tripnest-redesign.vercel.app/">
+        <img src="https://image.thum.io/get/width/1200/crop/850/noanimate/https://tripnest-redesign.vercel.app/" width="100%" alt="TripNest travel booking demo preview" />
+      </a>
+    </td>
+    <td width="48%" valign="middle">
+      <h3>TripNest</h3>
+      <p>A responsive travel-booking demo for exploring destinations and previewing sample routes.</p>
+      <ul>
+        <li>Browse popular destinations</li>
+        <li>Preview flight, train, and bus routes</li>
+        <li>Try a simple trip-search experience</li>
+      </ul>
+      <p><a href="https://tripnest-redesign.vercel.app/">Live demo</a> · <a href="https://github.com/vaibhavtevatia7946/tripnest">Source code</a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
