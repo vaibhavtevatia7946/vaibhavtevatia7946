@@ -38,7 +38,7 @@ const vaibhavTevatia = {
 <h2 align="center"><code>~/</code> toolbox</h2>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=cpp,c,python,go,js,ts,react,fastapi,nodejs,html,css,tailwind,git,github,vscode,vercel,postman,linux&perline=9" alt="Toolbox" />
+<img src="https://skillicons.dev/icons?i=cpp,c,python,go,js,html,css,fastapi,git,github,vscode,vercel&perline=6" alt="Toolbox" />
 </p>
 
 ---
