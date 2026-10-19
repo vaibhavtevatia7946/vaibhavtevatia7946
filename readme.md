@@ -149,11 +149,9 @@ const vaibhavTevatia = {
 
 ---
 
-<div align="center">
-
-<sub>`01110100 01101000 01100001 01101110 01101011 01110011 00100000 01100110 01101111 01110010 00100000 01110011 01100011 01110010 01101111 01101100 01101100 01101001 01101110 01100111`</sub>
-
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2400&pause=1100&color=39D353&center=true&vCenter=true&width=650&height=35&lines=01110100+01101000+01100001+01101110+01101011+01110011+%5Bthanks%5D;01100110+01101111+01100010+00100000+01110011+01100011+%5Bscrolling%5D;%3E+thanks+for+stopping+by!+%F0%9F%9A%80;%3E+always+open+to+collaborating+on+exciting+projects;%3E+let%27s+build+something+extraordinary+together+%E2%9C%A8" alt="terminal typing animation" />
+</p>
 
 ---
 
