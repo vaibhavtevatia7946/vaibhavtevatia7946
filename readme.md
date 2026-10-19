@@ -55,6 +55,8 @@ const vaibhavTevatia = {
 
 **[TripNest](https://github.com/vaibhavtevatia7946/tripnest)** – a responsive travel booking demo for exploring destinations and previewing sample flight, train, and bus routes. **[Live demo](https://tripnest-redesign.vercel.app/)** · [![TripNest website snapshot](https://image.thum.io/get/width/1200/crop/850/noanimate/https://tripnest-redesign.vercel.app/)](https://tripnest-redesign.vercel.app/)
 
+> **Demo only:** routes and fares are illustrative; TripNest does not connect to travel inventory, take payments, or issue tickets.
+
 ---
 
 <h2 align="center"><code>~/</code> github stats</h2>
