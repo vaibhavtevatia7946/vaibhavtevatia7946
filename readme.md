@@ -93,6 +93,15 @@ const vaibhavTevatia = {
 <table>
 <tr>
 <td width="50%">
+  <a href="https://vaibhav-portfolio-rho.vercel.app/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-vaibhav-portfolio-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-vaibhav-portfolio-light.svg">
+      <img src="assets/card-vaibhav-portfolio-dark.svg" width="420" alt="vaibhav-portfolio">
+    </picture>
+  </a>
+</td>
+<td width="50%">
   <a href="https://github.com/vaibhavtevatia7946/omni-converter">
     <picture>
       <source media="(prefers-color-scheme: dark)"  srcset="assets/card-omni-converter-dark.svg">
@@ -101,6 +110,8 @@ const vaibhavTevatia = {
     </picture>
   </a>
 </td>
+</tr>
+<tr>
 <td width="50%">
   <a href="https://github.com/vaibhavtevatia7946/tripnest">
     <picture>
@@ -110,23 +121,12 @@ const vaibhavTevatia = {
     </picture>
   </a>
 </td>
-</tr>
-<tr>
 <td width="50%">
   <a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">
     <picture>
       <source media="(prefers-color-scheme: dark)"  srcset="assets/card-afterglow-streaming-ui-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/card-afterglow-streaming-ui-light.svg">
       <img src="assets/card-afterglow-streaming-ui-dark.svg" width="420" alt="afterglow-streaming-ui">
-    </picture>
-  </a>
-</td>
-<td width="50%">
-  <a href="https://github.com/vaibhavtevatia7946/orca-marine">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-orca-marine-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-orca-marine-light.svg">
-      <img src="assets/card-orca-marine-dark.svg" width="420" alt="orca-marine">
     </picture>
   </a>
 </td>
@@ -137,10 +137,10 @@ const vaibhavTevatia = {
 
 | project | live | stack |
 |---|---|---|
+| **[vaibhav-portfolio](https://vaibhav-portfolio-rho.vercel.app/)** | [vaibhav-portfolio-rho.vercel.app](https://vaibhav-portfolio-rho.vercel.app/) | `JavaScript` `GSAP` `HTML5` |
 | **[omni-converter](https://github.com/vaibhavtevatia7946/omni-converter)** | [omni-converter-web.vercel.app](https://omni-converter-web.vercel.app) | `Python` `FastAPI` `PWA` |
 | **[tripnest](https://github.com/vaibhavtevatia7946/tripnest)** | [tripnest-redesign.vercel.app](https://tripnest-redesign.vercel.app/) | `HTML5` `CSS3` `JavaScript` |
 | **[afterglow](https://github.com/vaibhavtevatia7946/afterglow-streaming-ui)** | [vaibhavtevatia7946.github.io/afterglow-streaming-ui](https://vaibhavtevatia7946.github.io/afterglow-streaming-ui/) | `JavaScript` `CSS3` `UI/UX` |
-| **[orca-marine](https://github.com/vaibhavtevatia7946/orca-marine)** | [vaibhav-portfolio-rho.vercel.app](https://vaibhav-portfolio-rho.vercel.app/) | `Python` `React` `FastAPI` |
 
 </sub>
 
