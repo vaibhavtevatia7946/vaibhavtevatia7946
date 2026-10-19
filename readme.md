@@ -24,7 +24,7 @@
 const vaibhavTevatia = {
   title: "CSE Student | Aspiring Software Developer",
   stack: {
-    languages: ["C++", "C", "JavaScript", "Go"],
+    languages: ["C++", "C", "Python", "JavaScript", "Go"],
     web: ["HTML", "CSS", "JavaScript"],
     strengths: ["Data Structures & Algorithms", "Problem Solving"],
   },
@@ -38,7 +38,7 @@ const vaibhavTevatia = {
 <h2 align="center"><code>~/</code> toolbox</h2>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=cpp,c,go,js,html,css,git,github,vscode&perline=9" alt="Toolbox" />
+<img src="https://skillicons.dev/icons?i=cpp,c,python,go,js,ts,react,fastapi,nodejs,html,css,tailwind,git,github,vscode,vercel,postman,linux&perline=9" alt="Toolbox" />
 </p>
 
 ---
