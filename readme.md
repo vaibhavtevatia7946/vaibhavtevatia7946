@@ -1,3 +1,4 @@
+
 <h1 align="center">Hi, I'm Vaibhav Tevatia 👋</h1>
 
 <p align="center">
@@ -50,6 +51,39 @@ const vaibhavTevatia = {
 
 ---
 
+<h2 align="center"><code>~/</code> github stats</h2>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=vaibhavtevatia7946&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavtevatia7946&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Top languages" />
+</p>
+
+<p align="center">
+<img src="https://streak-stats.demolab.com/?user=vaibhavtevatia7946&theme=tokyonight&hide_border=true" alt="Streak stats" />
+</p>
+
+---
+
+<h2 align="center"><code>~/</code> contribution calendar</h2>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar" />
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/github-snake.svg" width="100%" alt="Snake animation" />
+</p>
+
+---
+
+<h2 align="center"><code>~/</code> activity trail</h2>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/activity-trail.svg" width="100%" alt="GitHub contribution activity trail" />
+</p>
+
+---
+
 <h2 align="center"><code>~/</code> selected work</h2>
 
 <table>
@@ -93,39 +127,6 @@ const vaibhavTevatia = {
 <tr><td><a href="https://github.com/vaibhavtevatia7946/orca-marine">ORCA Marine</a></td><td>—</td><td>Python · React</td></tr>
 </tbody>
 </table>
-
----
-
-<h2 align="center"><code>~/</code> github stats</h2>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vaibhavtevatia7946&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavtevatia7946&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Top languages" />
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com/?user=vaibhavtevatia7946&theme=tokyonight&hide_border=true" alt="Streak stats" />
-</p>
-
----
-
-<h2 align="center"><code>~/</code> contribution calendar</h2>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar" />
-</p>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/github-snake.svg" width="100%" alt="Snake animation" />
-</p>
-
----
-
-<h2 align="center"><code>~/</code> activity trail</h2>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/activity-trail.svg" width="100%" alt="GitHub contribution activity trail" />
-</p>
 
 ---
 
