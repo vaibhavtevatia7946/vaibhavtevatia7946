@@ -1,0 +1,25 @@
+{
+  "_comment": "Featured repos, in README order.",
+  "projects": [
+    {
+      "repo": "omni-converter",
+      "description": "All-in-one file converter for Passport photos, exact KB reducer, PDF tools, and PowerPoint slides with fast client-side PWA.",
+      "language": "Python"
+    },
+    {
+      "repo": "tripnest",
+      "description": "A responsive travel-booking web app for exploring curated destinations, booking flights, trains, and interactive route planning.",
+      "language": "JavaScript"
+    },
+    {
+      "repo": "afterglow-streaming-ui",
+      "description": "A cinematic streaming-discovery platform featuring genre filtering, dynamic hero banners, and watchlist persistence.",
+      "language": "JavaScript"
+    },
+    {
+      "repo": "orca-marine",
+      "description": "A multi-agent marine intelligence platform for ocean condition analysis, fishing-zone discovery, safety alerts, and safe routing.",
+      "language": "Python"
+    }
+  ]
+}

@@ -61,6 +61,12 @@ jobs:
           EOF
           rm avatar.png
 
+      - name: Generate project and stat cards
+        run: |
+          python3 scripts/cards.py --user ${{ github.repository_owner }} --out assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit files
         run: |
           git config user.name "github-actions"
