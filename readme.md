@@ -84,33 +84,33 @@ const vaibhavTevatia = {
 
 ---
 
-<h2 align="center"><code>~/</code> selected work</h2>
+<h2 align="center"><code>~/</code> selected work</h2>  <p align="center"><sub>Practical builds across web, AI, and marine intelligence.</sub></p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/vaibhavtevatia7946/tripnest">TripNest</a></h3>
+<h3><a href="https://github.com/vaibhavtevatia7946/tripnest">✈️ TripNest</a></h3>
 <p>A responsive travel-booking demo for exploring destinations and previewing sample flight, train, and bus routes.</p>
-<p><b>Stack:</b> HTML · CSS · JavaScript</p>
+<p><b>Built with</b><br> HTML · CSS · JavaScript</p>
 <p><a href="https://tripnest-redesign.vercel.app/">Live demo</a> · <a href="https://github.com/vaibhavtevatia7946/tripnest">Source</a></p>
 <p><i>Demo only: routes and fares are illustrative; no bookings or tickets are issued.</i></p>
 </td>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">Afterglow</a></h3>
+<h3><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">🎬 Afterglow</a></h3>
 <p>A cinematic streaming-discovery demo for browsing fictional films and series, filtering by genre, and saving a local watchlist.</p>
-<p><b>Stack:</b> HTML · CSS · JavaScript</p>
+<p><b>Built with</b><br> HTML · CSS · JavaScript</p>
 <p><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">Source</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/vaibhavtevatia7946/orca-marine">ORCA Marine</a></h3>
+<h3><a href="https://github.com/vaibhavtevatia7946/orca-marine">🌊 ORCA Marine</a></h3>
 <p>A multi-agent marine-intelligence prototype for ocean conditions, fishing zones, safety alerts, and safe routing.</p>
-<p><b>Stack:</b> Python · React · FastAPI · LangGraph</p>
+<p><b>Built with</b><br> Python · React · FastAPI · LangGraph</p>
 <p><a href="https://github.com/vaibhavtevatia7946/orca-marine">Source</a></p>
 </td>
 <td width="50%" valign="top">
-<h3><a href="https://vaibhav-portfolio-rho.vercel.app/">Portfolio</a></h3>
+<h3><a href="https://vaibhav-portfolio-rho.vercel.app/">🧑‍💻 Portfolio</a></h3>
 <p>More projects, experiments, and details about my work.</p>
 <p><a href="https://vaibhav-portfolio-rho.vercel.app/">Visit portfolio</a></p>
 </td>
@@ -120,12 +120,12 @@ const vaibhavTevatia = {
 <p align="center"><b>Projects at a glance</b></p>
 
 <table align="center">
-<thead><tr><th>Project</th><th>Live</th><th>Stack</th></tr></thead>
+<thead><tr><th>Project</th><th>Explore</th><th>Stack</th></tr></thead>
 <tbody>
 <tr><td><a href="https://github.com/vaibhavtevatia7946/tripnest">TripNest</a></td><td><a href="https://tripnest-redesign.vercel.app/">Demo</a></td><td>JavaScript</td></tr>
 <tr><td><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">Afterglow</a></td><td>—</td><td>JavaScript</td></tr>
 <tr><td><a href="https://github.com/vaibhavtevatia7946/orca-marine">ORCA Marine</a></td><td>—</td><td>Python · React</td></tr>
-</tbody>
+<tr><td><a href="https://vaibhav-portfolio-rho.vercel.app/">🧑‍💻 Portfolio</a></td><td><a href="https://vaibhav-portfolio-rho.vercel.app/">Visit</a></td><td>Web</td></tr> </tbody>
 </table>
 
 ---
