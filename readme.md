@@ -1,71 +1,4 @@
 
-<h1 align="center">Hi, I'm Vaibhav Tevatia 👋</h1>
-
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1200&color=1E90FF&center=true&vCenter=true&width=600&height=45&lines=CSE+Student+%7C+Learning+DSA;%E2%80%A2+Building+Projects+%E2%80%A2;%E2%80%A2+Exploring+Tech+%E2%80%A2" alt="Typing SVG" />
-</p>
-
-<p align="center">
-<a href="https://www.linkedin.com/in/vaibhav-tevatia-a1788842a/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:vaibhavtevatia7946@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://vaibhav-portfolio-rho.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="https://leetcode.com/u/00JxtSQG7B/"><img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-</p>
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=vaibhavtevatia7946&label=Profile%20Views&color=32CD32&style=flat" alt="Profile Views" />
-</p>
-
----
-
-<h2 align="center"><code>~/</code> who I am</h2>
-
-```js
-const vaibhavTevatia = {
-  title: "CSE Student | Aspiring Software Developer",
-  stack: {
-    languages: ["C++", "C", "JavaScript", "Go"],
-    web: ["HTML", "CSS", "JavaScript"],
-    strengths: ["Data Structures & Algorithms", "Problem Solving"],
-  },
-  currentlyExploring: "Backend systems with Golang",
-  funFact: "Believes clean code and clean algorithms go hand in hand"
-};
-```
-
----
-
-<h2 align="center"><code>~/</code> toolbox</h2>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=cpp,c,go,js,html,css,git,github,vscode&perline=9" alt="Toolbox" />
-</p>
-
----
-
-<h2 align="center"><code>~/</code> skill radar</h2>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/skill-radar.svg" width="100%" alt="Skill radar" />
-</p>
-
----
-
-<h2 align="center"><code>~/</code> github stats</h2>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vaibhavtevatia7946&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavtevatia7946&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Top languages" />
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com/?user=vaibhavtevatia7946&theme=tokyonight&hide_border=true" alt="Streak stats" />
-</p>
-
----
-
-<h2 align="center"><code>~/</code> contribution calendar</h2>
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar" />
 </p>
@@ -84,48 +17,29 @@ const vaibhavTevatia = {
 
 ---
 
-<h2 align="center"><code>~/</code> selected work</h2>  <p align="center"><sub>Practical builds across web, AI, and marine intelligence.</sub></p>
+<h2 align="center"><code>~/</code> selected work</h2>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/vaibhavtevatia7946/tripnest">✈️ TripNest</a></h3>
-<p>A responsive travel-booking demo for exploring destinations and previewing sample flight, train, and bus routes.</p>
-<p><b>Built with</b><br> HTML · CSS · JavaScript</p>
-<p><a href="https://tripnest-redesign.vercel.app/">Live demo</a> · <a href="https://github.com/vaibhavtevatia7946/tripnest">Source</a></p>
-<p><i>Demo only: routes and fares are illustrative; no bookings or tickets are issued.</i></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">🎬 Afterglow</a></h3>
-<p>A cinematic streaming-discovery demo for browsing fictional films and series, filtering by genre, and saving a local watchlist.</p>
-<p><b>Built with</b><br> HTML · CSS · JavaScript</p>
-<p><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">Source</a></p>
-</td>
+<td width="50%"><a href="https://github.com/vaibhavtevatia7946/tripnest"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vaibhavtevatia7946&repo=tripnest&theme=default&hide_border=false" width="100%" alt="TripNest repository card" /></a></td>
+<td width="50%"><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vaibhavtevatia7946&repo=afterglow-streaming-ui&theme=default&hide_border=false" width="100%" alt="Afterglow repository card" /></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/vaibhavtevatia7946/orca-marine">🌊 ORCA Marine</a></h3>
-<p>A multi-agent marine-intelligence prototype for ocean conditions, fishing zones, safety alerts, and safe routing.</p>
-<p><b>Built with</b><br> Python · React · FastAPI · LangGraph</p>
-<p><a href="https://github.com/vaibhavtevatia7946/orca-marine">Source</a></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://vaibhav-portfolio-rho.vercel.app/">🧑‍💻 Portfolio</a></h3>
-<p>More projects, experiments, and details about my work.</p>
-<p><a href="https://vaibhav-portfolio-rho.vercel.app/">Visit portfolio</a></p>
-</td>
+<td width="50%"><a href="https://github.com/vaibhavtevatia7946/orca-marine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vaibhavtevatia7946&repo=orca-marine&theme=default&hide_border=false" width="100%" alt="ORCA Marine repository card" /></a></td>
+<td width="50%"><a href="https://github.com/vaibhavtevatia7946/omni-converter"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vaibhavtevatia7946&repo=omni-converter&theme=default&hide_border=false" width="100%" alt="OmniConvert repository card" /></a></td>
 </tr>
 </table>
 
 <p align="center"><b>Projects at a glance</b></p>
 
 <table align="center">
-<thead><tr><th>Project</th><th>Explore</th><th>Stack</th></tr></thead>
+<thead><tr><th>project</th><th>live</th><th>stack</th></tr></thead>
 <tbody>
 <tr><td><a href="https://github.com/vaibhavtevatia7946/tripnest">TripNest</a></td><td><a href="https://tripnest-redesign.vercel.app/">Demo</a></td><td>JavaScript</td></tr>
 <tr><td><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">Afterglow</a></td><td>—</td><td>JavaScript</td></tr>
 <tr><td><a href="https://github.com/vaibhavtevatia7946/orca-marine">ORCA Marine</a></td><td>—</td><td>Python · React</td></tr>
-<tr><td><a href="https://vaibhav-portfolio-rho.vercel.app/">🧑‍💻 Portfolio</a></td><td><a href="https://vaibhav-portfolio-rho.vercel.app/">Visit</a></td><td>Web</td></tr> </tbody>
+<tr><td><a href="https://github.com/vaibhavtevatia7946/omni-converter">OmniConvert</a></td><td>—</td><td>JavaScript</td></tr>
+</tbody>
 </table>
 
 ---
@@ -138,3 +52,35 @@ const vaibhavTevatia = {
 </p>
 
 <p align="center"><i>Thanks for visiting — always open to collaborating on interesting projects! 🚀</i></p>
+
+
+								97 text (settable) <p align="center">
+								98 text (settable) <img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar" />
+								99 text (settable) </p>
+								100 text (settable) <p align="center">
+								101 text (settable) <img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/github-snake.svg" width="100%" alt="Snake animation" />
+								102 text (settable) </p>
+								103 text (settable) ---
+								104 text (settable) <h2 align="center"><code>~/</code> activity trail</h2>
+								105 text (settable) <p align="center">
+								106 text (settable) <img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/activity-trail.svg" width="100%" alt="GitHub contribution activity trail" />
+								107 text (settable) </p>
+								108 text (settable) ---
+								109 text (settable) <h2 align="center"><code>~/</code> selected work</h2>  <p align="center"><sub>Practical builds across web, AI, and marine intelligence.</sub></p>
+								110 text (settable) <table> <tr> <td width="50%"><a href="https://github.com/vaibhavtevatia7946/tripnest"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vaibhavtevatia7946&repo=tripnest&theme=default&hide_border=false" width="100%" alt="TripNest repository card" /></a></td> <td width="50%"><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui"><img src="https://github-readme-stats.vercel.app/api/pin/?username=vaibhavtevatia7946&repo=afterglow-streaming-ui&theme=default&hide_border=false" wid
+								111 text (settable) <p align="center"><b>Projects at a glance</b></p>
+								112 text (settable) <table align="center">
+								113 text (settable) <thead><tr><th>Project</th><th>Explore</th><th>Stack</th></tr></thead>
+								114 text (settable) <tbody>
+								115 text (settable) <tr><td><a href="https://github.com/vaibhavtevatia7946/tripnest">TripNest</a></td><td><a href="https://tripnest-redesign.vercel.app/">Demo</a></td><td>JavaScript</td></tr>
+								116 text (settable) <tr><td><a href="https://github.com/vaibhavtevatia7946/afterglow-streaming-ui">Afterglow</a></td><td>—</td><td>JavaScript</td></tr>
+								117 text (settable) <tr><td><a href="https://github.com/vaibhavtevatia7946/orca-marine">ORCA Marine</a></td><td>—</td><td>Python · React</td></tr>
+								118 text (settable) <tr><td><a href="https://vaibhav-portfolio-rho.vercel.app/">🧑‍💻 Portfolio</a></td><td><a href="https://vaibhav-portfolio-rho.vercel.app/">Visit</a></td><td>Web</td></tr> </tbody>
+								119 text (settable) </table>
+								120 text (settable) ---
+								121 text (settable) <h2 align="center"><code>~/</code> connect with me</h2>
+								122 text (settable) <p align="center">
+								123 text (settable) <a href="https://www.linkedin.com/in/vaibhav-tevatia-a1788842a/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+								124 text (settable) <a href="mailto:vaibhavtevatia7946@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+								125 text (settable) </p>
+								126 text (settable) <p align="center"><i>Thanks for visiting — always open to collaborating on interesting projects! 🚀</i></p>
