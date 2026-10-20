@@ -80,11 +80,7 @@ const vaibhavTevatia = {
 
 <p align="center">
   <a href="https://github.com/vaibhavtevatia7946">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavtevatia7946&theme=tokyo-night&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavtevatia7946&theme=tokyo-day&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaibhavtevatia7946&theme=tokyo-night&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" width="100%" alt="Contribution Activity Graph" />
-    </picture>
+    <img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/activity-graph.svg" width="100%" alt="Contribution Activity Graph" />
   </a>
 </p>
 

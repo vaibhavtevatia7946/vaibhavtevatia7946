@@ -61,6 +61,183 @@ jobs:
           EOF
           rm avatar.png
 
+      - name: Contribution activity graph
+        run: |
+          mkdir -p assets
+          python3 - <<'EOF'
+          import urllib.request
+          import re
+          from datetime import datetime
+
+          url = 'https://github.com/users/${{ github.repository_owner }}/contributions'
+          req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+          html = urllib.request.urlopen(req).read().decode('utf-8')
+
+          dates = re.findall(r'<td[^>]*data-date="([\d-]+)"[^>]*id="([^"]+)"', html)
+          tooltips = dict(re.findall(r'<tool-tip[^>]*for="([^"]+)"[^>]*>(.*?)</tool-tip>', html))
+
+          day_data = []
+          for d, comp_id in dates:
+              tip = tooltips.get(comp_id, '')
+              m = re.search(r'(\d+)\s+contribution', tip)
+              count = int(m.group(1)) if m else 0
+              day_data.append((d, count))
+
+          day_data.sort(key=lambda x: x[0])
+          data = day_data[-31:]
+
+          width = 880
+          height = 320
+          margin_left = 55
+          margin_right = 40
+          margin_top = 80
+          base_y = 255
+
+          plot_w = width - margin_left - margin_right
+          plot_h = base_y - margin_top
+
+          max_count = max(c for d, c in data) if data else 10
+          if max_count == 0:
+              max_count = 10
+          y_max = ((max_count + 9) // 10) * 10
+          total_commits = sum(c for d, c in data)
+          avg_commits = total_commits / len(data) if data else 0
+
+          points = []
+          for i, (d, count) in enumerate(data):
+              x = margin_left + (i / (len(data) - 1)) * plot_w
+              y = base_y - (count / y_max) * plot_h
+              points.append((x, y, d, count))
+
+          n = len(points)
+          spline_cmds = [f"M {points[0][0]:.1f} {points[0][1]:.1f}"]
+          for i in range(n - 1):
+              p0 = points[max(0, i - 1)]
+              p1 = points[i]
+              p2 = points[i + 1]
+              p3 = points[min(n - 1, i + 2)]
+              tension = 0.22
+              cp1x = p1[0] + (p2[0] - p0[0]) * tension
+              cp1y = min(base_y, p1[1] + (p2[1] - p0[1]) * tension)
+              cp2x = p2[0] - (p3[0] - p1[0]) * tension
+              cp2y = min(base_y, p2[1] - (p3[1] - p1[1]) * tension)
+              spline_cmds.append(f"C {cp1x:.1f} {cp1y:.1f}, {cp2x:.1f} {cp2y:.1f}, {p2[0]:.1f} {p2[1]:.1f}")
+
+          line_d = " ".join(spline_cmds)
+          area_d = f"{line_d} L {points[-1][0]:.1f} {base_y:.1f} L {points[0][0]:.1f} {base_y:.1f} Z"
+
+          grid_steps = 4
+          grid_lines = []
+          y_labels = []
+          for s in range(grid_steps + 1):
+              val = int(y_max * s / grid_steps)
+              gy = base_y - (val / y_max) * plot_h
+              grid_lines.append(f'<line x1="{margin_left}" y1="{gy:.1f}" x2="{width - margin_right}" y2="{gy:.1f}" class="grid-line" stroke-dasharray="3 4"/>')
+              y_labels.append(f'<text x="{margin_left - 12}" y="{gy + 4:.1f}" text-anchor="end" class="axis-label">{val}</text>')
+
+          x_labels = []
+          for i in [0, 5, 10, 15, 20, 25, 30]:
+              pt = points[i]
+              dt = datetime.strptime(pt[2], "%Y-%m-%d")
+              lbl = dt.strftime("%b %d")
+              x_labels.append(f'<text x="{pt[0]:.1f}" y="{base_y + 22}" text-anchor="middle" class="axis-label">{lbl}</text>')
+
+          dots = []
+          peak_pt = max(points, key=lambda p: p[3])
+          for pt in points:
+              if pt[3] > 0:
+                  dots.append(f'<circle cx="{pt[0]:.1f}" cy="{pt[1]:.1f}" r="4.5" class="dot-halo"/>')
+                  dots.append(f'<circle cx="{pt[0]:.1f}" cy="{pt[1]:.1f}" r="2.8" class="dot-core"/>')
+
+          peak_badge = f'''
+          <g transform="translate({peak_pt[0] - 48}, {peak_pt[1] - 36})">
+            <rect width="96" height="24" rx="6" class="peak-bg"/>
+            <text x="48" y="16" text-anchor="middle" class="peak-text">★ {peak_pt[3]} commits</text>
+            <polygon points="44,24 52,24 48,28" class="peak-arrow"/>
+          </g>
+          '''
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="100%">
+            <defs>
+              <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" class="area-stop-top"/>
+                <stop offset="90%" class="area-stop-mid"/>
+                <stop offset="100%" class="area-stop-bot"/>
+              </linearGradient>
+              <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#38bdf8"/>
+                <stop offset="50%" stop-color="#7aa2f7"/>
+                <stop offset="100%" stop-color="#bb9af7"/>
+              </linearGradient>
+              <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="3" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+              <style>
+                .card-bg {{ fill: #1a1b26; stroke: #24283b; stroke-width: 1.5; }}
+                .title-text {{ fill: #7aa2f7; font-family: 'JetBrains Mono', 'SF Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }}
+                .sub-badge {{ fill: #24283b; }}
+                .sub-text {{ fill: #9aa5ce; font-family: 'JetBrains Mono', 'SF Mono', monospace; font-size: 11px; font-weight: 600; }}
+                .pulse-dot {{ fill: #70e000; }}
+                .grid-line {{ stroke: #24283b; stroke-width: 1; }}
+                .axis-label {{ fill: #565f89; font-family: 'SF Pro Display', -apple-system, monospace; font-size: 10px; font-weight: 600; }}
+                .area-stop-top {{ stop-color: #7aa2f7; stop-opacity: 0.45; }}
+                .area-stop-mid {{ stop-color: #7aa2f7; stop-opacity: 0.12; }}
+                .area-stop-bot {{ stop-color: #7aa2f7; stop-opacity: 0.0; }}
+                .line-main {{ stroke: url(#lineGrad); stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }}
+                .dot-halo {{ fill: #7aa2f7; fill-opacity: 0.25; }}
+                .dot-core {{ fill: #bb9af7; stroke: #1a1b26; stroke-width: 1.5; }}
+                .peak-bg {{ fill: #24283b; stroke: #7aa2f7; stroke-width: 1; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4)); }}
+                .peak-text {{ fill: #7aa2f7; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; font-weight: 700; }}
+                .peak-arrow {{ fill: #7aa2f7; }}
+
+                @media (prefers-color-scheme: light) {{
+                  .card-bg {{ fill: #ffffff; stroke: #e1e4e8; }}
+                  .title-text {{ fill: #0969da; }}
+                  .sub-badge {{ fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1; }}
+                  .sub-text {{ fill: #57606a; }}
+                  .grid-line {{ stroke: #eaecef; }}
+                  .axis-label {{ fill: #6e7781; }}
+                  .area-stop-top {{ stop-color: #218bff; stop-opacity: 0.35; }}
+                  .area-stop-mid {{ stop-color: #218bff; stop-opacity: 0.08; }}
+                  .area-stop-bot {{ stop-color: #218bff; stop-opacity: 0.0; }}
+                  .dot-core {{ fill: #0969da; stroke: #ffffff; }}
+                  .dot-halo {{ fill: #218bff; fill-opacity: 0.25; }}
+                  .peak-bg {{ fill: #f6f8fa; stroke: #0969da; }}
+                  .peak-text {{ fill: #0969da; }}
+                  .peak-arrow {{ fill: #0969da; }}
+                }}
+              </style>
+            </defs>
+
+            <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="14" class="card-bg"/>
+
+            <g transform="translate(24, 34)">
+              <circle cx="4" cy="4" r="4" class="pulse-dot"/>
+              <text x="18" y="8" class="title-text">~/ CONTRIBUTION ACTIVITY GRAPH</text>
+            </g>
+
+            <g transform="translate({width - 320}, 20)">
+              <rect width="296" height="28" rx="14" class="sub-badge"/>
+              <text x="148" y="18" text-anchor="middle" class="sub-text">LAST 31 DAYS: <tspan fill="#7aa2f7" font-weight="700">{total_commits} COMMITS</tspan> (AVG {avg_commits:.1f}/DAY)</text>
+            </g>
+
+            {' '.join(grid_lines)}
+            {' '.join(y_labels)}
+            {' '.join(x_labels)}
+            <path d="{area_d}" fill="url(#areaGrad)"/>
+            <path d="{line_d}" class="line-main" filter="url(#glow)"/>
+            {' '.join(dots)}
+            {peak_badge}
+          </svg>'''
+
+          with open('assets/activity-graph.svg', 'w') as f:
+              f.write(svg)
+          EOF
+
       - name: Commit files
         run: |
           git config user.name "github-actions"
