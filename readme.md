@@ -9,6 +9,7 @@
 <a href="https://www.linkedin.com/in/vaibhav-tevatia-a1788842a/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:vaibhavtevatia7946@gmail.com"><img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://vaibhav-portfolio-rho.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://codeforces.com/profile/Vaibhavtevatia7946"><img src="https://img.shields.io/badge/CODEFORCES-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
 <a href="https://leetcode.com/u/00JxtSQG7B/"><img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
 </p>
 
