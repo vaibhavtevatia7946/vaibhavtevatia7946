@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi, I'm Vaibhav Tevatia 👋</h1>
-
+mm
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1200&color=1E90FF&center=true&vCenter=true&width=600&height=45&lines=CSE+Student+%7C+Learning+DSA;%E2%80%A2+Building+Projects+%E2%80%A2;%E2%80%A2+Exploring+Tech+%E2%80%A2" alt="Typing SVG" />
 </p>
