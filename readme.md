@@ -12,7 +12,7 @@
 <a href="https://codeforces.com/profile/Vaibhavtevatia7946"><img src="https://img.shields.io/badge/CODEFORCES-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
 <a href="https://leetcode.com/u/00JxtSQG7B/"><img src="https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
 </p>
-...
+
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=vaibhavtevatia7946&label=Profile%20Views&color=32CD32&style=flat" alt="Profile Views" />
 </p>
