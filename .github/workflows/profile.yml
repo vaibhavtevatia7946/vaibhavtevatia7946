@@ -165,9 +165,9 @@ jobs:
                 <stop offset="100%" class="area-stop-bot"/>
               </linearGradient>
               <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0%" stop-color="#38bdf8"/>
-                <stop offset="50%" stop-color="#7aa2f7"/>
-                <stop offset="100%" stop-color="#bb9af7"/>
+                <stop offset="0%" stop-color="#9be9a8"/>
+                <stop offset="50%" stop-color="#3fb950"/>
+                <stop offset="100%" stop-color="#238636"/>
               </linearGradient>
               <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
                 <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -177,39 +177,23 @@ jobs:
                 </feMerge>
               </filter>
               <style>
-                .card-bg {{ fill: #1a1b26; stroke: #24283b; stroke-width: 1.5; }}
-                .title-text {{ fill: #7aa2f7; font-family: 'JetBrains Mono', 'SF Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }}
-                .sub-badge {{ fill: #24283b; }}
-                .sub-text {{ fill: #9aa5ce; font-family: 'JetBrains Mono', 'SF Mono', monospace; font-size: 11px; font-weight: 600; }}
+                .card-bg {{ fill: #ffffff; stroke: #d1d5db; stroke-width: 1.5; }}
+                .title-text {{ fill: #22863a; font-family: 'JetBrains Mono', 'SF Mono', monospace; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }}
+                .sub-badge {{ fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1; }}
+                .sub-text {{ fill: #57606a; font-family: 'JetBrains Mono', 'SF Mono', monospace; font-size: 11px; font-weight: 600; }}
                 .pulse-dot {{ fill: #70e000; }}
-                .grid-line {{ stroke: #24283b; stroke-width: 1; }}
-                .axis-label {{ fill: #565f89; font-family: 'SF Pro Display', -apple-system, monospace; font-size: 10px; font-weight: 600; }}
-                .area-stop-top {{ stop-color: #7aa2f7; stop-opacity: 0.45; }}
-                .area-stop-mid {{ stop-color: #7aa2f7; stop-opacity: 0.12; }}
-                .area-stop-bot {{ stop-color: #7aa2f7; stop-opacity: 0.0; }}
+                .grid-line {{ stroke: #e1e4e8; stroke-width: 1; }}
+                .axis-label {{ fill: #6e7781; font-family: 'SF Pro Display', -apple-system, monospace; font-size: 10px; font-weight: 600; }}
+                .area-stop-top {{ stop-color: #3fb950; stop-opacity: 0.45; }}
+                .area-stop-mid {{ stop-color: #3fb950; stop-opacity: 0.12; }}
+                .area-stop-bot {{ stop-color: #3fb950; stop-opacity: 0.0; }}
                 .line-main {{ stroke: url(#lineGrad); stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }}
-                .dot-halo {{ fill: #7aa2f7; fill-opacity: 0.25; }}
-                .dot-core {{ fill: #bb9af7; stroke: #1a1b26; stroke-width: 1.5; }}
-                .peak-bg {{ fill: #24283b; stroke: #7aa2f7; stroke-width: 1; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4)); }}
-                .peak-text {{ fill: #7aa2f7; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; font-weight: 700; }}
-                .peak-arrow {{ fill: #7aa2f7; }}
+                .dot-halo {{ fill: #3fb950; fill-opacity: 0.25; }}
+                .dot-core {{ fill: #22863a; stroke: #ffffff; stroke-width: 1.5; }}
+                .peak-bg {{ fill: #f6f8fa; stroke: #22863a; stroke-width: 1; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4)); }}
+                .peak-text {{ fill: #22863a; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; font-weight: 700; }}
+                .peak-arrow {{ fill: #22863a; }}
 
-                @media (prefers-color-scheme: light) {{
-                  .card-bg {{ fill: #ffffff; stroke: #e1e4e8; }}
-                  .title-text {{ fill: #0969da; }}
-                  .sub-badge {{ fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1; }}
-                  .sub-text {{ fill: #57606a; }}
-                  .grid-line {{ stroke: #eaecef; }}
-                  .axis-label {{ fill: #6e7781; }}
-                  .area-stop-top {{ stop-color: #218bff; stop-opacity: 0.35; }}
-                  .area-stop-mid {{ stop-color: #218bff; stop-opacity: 0.08; }}
-                  .area-stop-bot {{ stop-color: #218bff; stop-opacity: 0.0; }}
-                  .dot-core {{ fill: #0969da; stroke: #ffffff; }}
-                  .dot-halo {{ fill: #218bff; fill-opacity: 0.25; }}
-                  .peak-bg {{ fill: #f6f8fa; stroke: #0969da; }}
-                  .peak-text {{ fill: #0969da; }}
-                  .peak-arrow {{ fill: #0969da; }}
-                }}
               </style>
             </defs>
 
@@ -222,7 +206,7 @@ jobs:
 
             <g transform="translate({width - 320}, 20)">
               <rect width="296" height="28" rx="14" class="sub-badge"/>
-              <text x="148" y="18" text-anchor="middle" class="sub-text">LAST 31 DAYS: <tspan fill="#7aa2f7" font-weight="700">{total_commits} COMMITS</tspan> (AVG {avg_commits:.1f}/DAY)</text>
+              <text x="148" y="18" text-anchor="middle" class="sub-text">LAST 31 DAYS: <tspan fill="#22863a" font-weight="700">{total_commits} COMMITS</tspan> (AVG {avg_commits:.1f}/DAY)</text>
             </g>
 
             {' '.join(grid_lines)}
