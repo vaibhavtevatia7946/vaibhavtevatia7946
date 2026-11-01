@@ -55,8 +55,8 @@ const vaibhavTevatia = {
 <h2 align="center"><code>~/</code> github stats</h2>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=vaibhavtevatia7946&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vaibhavtevatia7946&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Top languages" />
+<img src="assets/github-stats.svg" height="170" alt="GitHub stats" />
+<img src="assets/top-langs.svg" height="170" alt="Top languages" />
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@ const vaibhavTevatia = {
 <h2 align="center"><code>~/</code> contribution calendar</h2>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg"><source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg"><img src="profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D contribution calendar" /></picture>
 </p>
 
 <p align="center">
