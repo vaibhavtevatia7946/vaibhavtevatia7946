@@ -222,6 +222,9 @@ jobs:
               f.write(svg)
           EOF
 
+      - name: Contribution activity trail
+        run: python3 .github/scripts/update_activity_trail.py
+
       - name: Commit files
         run: |
           git config user.name "github-actions"
