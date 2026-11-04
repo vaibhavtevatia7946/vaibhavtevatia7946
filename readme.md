@@ -90,7 +90,7 @@ const vaibhavTevatia = {
 <h2 align="center"><code>~/</code> activity trail</h2>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/activity-trail.svg" width="100%" alt="GitHub contribution activity trail" />
+<img src="https://raw.githubusercontent.com/vaibhavtevatia7946/vaibhavtevatia7946/main/assets/activity-trail.svg?v=9f10425" width="100%" alt="GitHub contribution activity trail" />
 </p>
 
 ---
