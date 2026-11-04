@@ -82,7 +82,7 @@ bar_markup = "".join(bars)
 label_markup = "".join(labels)
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
 <title id="title">Vaibhav's hopping GitHub activity trail</title>
-<desc id="desc">A pixel bunny hops across monthly contribution bars in a green and white theme. {total} contributions are shown from the last 12 months, through {updated}.</desc>
+<desc id="desc">A pixel bunny hops across monthly contribution bars in a green and white theme. {total} contributions are shown from the last 12 months, through {updated}. Hover over a bar for its monthly count.</desc>
 <rect x="1" y="1" width="1098" height="358" rx="14" fill="#fff" stroke="#d0d7de"/>
 <text x="26" y="34" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="1.4">~/ RANDOM HOP CONTRIBUTIONS</text>
 <text x="1074" y="34" text-anchor="end" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700" letter-spacing=".8">UPDATED {updated}</text>
