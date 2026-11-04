@@ -59,9 +59,12 @@ for index, (year, month) in enumerate(months):
     bar_height = max(4, round(count / max_count * max_height)) if max_count else 4
     y = baseline - bar_height
     color = "#2da44e" if count == max_count and count else "#72d594" if count else "#b9efcb"
+    month_title = date(year, month, 1).strftime("%B %Y")
+    contribution_label = "contribution" if count == 1 else "contributions"
     bars.append(
         f'<rect x="{x}" y="{y}" width="{bar_width}" height="{bar_height}" '
-        f'rx="2" fill="{color}"/>'
+        f'rx="2" fill="{color}"><title>{month_title}: {count} '
+        f'{contribution_label}</title></rect>'
     )
     labels.append(
         f'<text x="{x + bar_width / 2:g}" y="304">{date(year, month, 1):%b}</text>'
